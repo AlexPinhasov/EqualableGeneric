@@ -6,6 +6,8 @@
 <h4 align="center">Give your project the ability to compare the properties of objects of the same type.</h4>
 
 <p align="center">
+  <img alt="Version" src="https://img.shields.io/cocoapods/v/EqualableGeneric.svg">
+  <img alt="Platform" src="https://img.shields.io/cocoapods/p/EqualableGeneric.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Alex Pinhasov-blue.svg">
   <img alt="Swift" src="https://img.shields.io/badge/swift-4.0%2B-orange.svg">
 </p>
