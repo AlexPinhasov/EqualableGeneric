@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EqualableGeneric_Example' do
+  pod 'EqualableGeneric', :path => '../'
+
+  target 'EqualableGeneric_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

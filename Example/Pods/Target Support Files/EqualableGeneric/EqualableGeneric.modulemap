@@ -1,0 +1,6 @@
+framework module EqualableGeneric {
+  umbrella header "EqualableGeneric-umbrella.h"
+
+  export *
+  module * { export * }
+}

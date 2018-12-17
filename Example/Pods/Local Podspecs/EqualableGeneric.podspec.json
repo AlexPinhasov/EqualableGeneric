@@ -1,0 +1,22 @@
+{
+  "name": "EqualableGeneric",
+  "version": "0.1.0",
+  "summary": "A short description of EqualableGeneric.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlexPinhasov/EqualableGeneric",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexPinhasov": "alexp@gini-apps.com"
+  },
+  "source": {
+    "git": "https://github.com/AlexPinhasov/EqualableGeneric.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EqualableGeneric/Classes/**/*"
+}

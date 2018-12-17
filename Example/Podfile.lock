@@ -1,0 +1,16 @@
+PODS:
+  - EqualableGeneric (0.1.0)
+
+DEPENDENCIES:
+  - EqualableGeneric (from `../`)
+
+EXTERNAL SOURCES:
+  EqualableGeneric:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EqualableGeneric: c5d31b35f66e72c7a952c6bbd9fbb7bef515b7ca
+
+PODFILE CHECKSUM: 0392f84e34b01ed79cfa91a88dfe774641e197ca
+
+COCOAPODS: 1.5.3
