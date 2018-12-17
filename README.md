@@ -22,7 +22,7 @@ pod 'EqualableGeneric'
 
 ## Author
 
-AlexPinhasov, alexp@gini-apps.com
+AlexPinhasov, alex5872205@gmail.com
 
 ## License
 
