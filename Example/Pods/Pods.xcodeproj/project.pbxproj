@@ -60,7 +60,7 @@
 		847FD8D6F4DD018F94694BCBEA1DEA27 /* Pods_EqualableGeneric_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EqualableGeneric_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA3838674A9661874A515C3E0593F24 /* EqualableGeneric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EqualableGeneric-dummy.m"; sourceTree = "<group>"; };
 		900ECDFBE8432B33B5A6787345E419B0 /* Pods-EqualableGeneric_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EqualableGeneric_Example-resources.sh"; sourceTree = "<group>"; };
-		91DF8B2B21C7CC0F0048989A /* MirrorableValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorableValues.swift; sourceTree = "<group>"; };
+		91DF8B2B21C7CC0F0048989A /* MirrorableValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MirrorableValues.swift; path = EqualableGeneric/Classes/MirrorableValues.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FADF8819239EAD25E544DB3073A6CE /* EqualableGeneric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EqualableGeneric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		983487A6CDD273BC0CD47EE9E2C66F45 /* Pods-EqualableGeneric_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EqualableGeneric_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -320,7 +320,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -640,6 +640,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -669,7 +670,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -701,7 +702,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
