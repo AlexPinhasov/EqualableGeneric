@@ -7,13 +7,11 @@
 
 import Foundation
 
-public protocol MirrorableValues
-{
+public protocol MirrorableValues {
     func mirrorableValues() -> [Any]
 }
 
-extension MirrorableValues
-{
+extension MirrorableValues  {
     public func mirrorableValues() -> [Any]
     {
         return Mirror(reflecting: self).children.compactMap { $0.value }
