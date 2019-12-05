@@ -9,7 +9,7 @@
   <img alt="Version" src="https://img.shields.io/cocoapods/v/EqualableGeneric.svg">
   <img alt="Platform" src="https://img.shields.io/cocoapods/p/EqualableGeneric.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Alex Pinhasov-blue.svg">
-  <img alt="Swift" src="https://img.shields.io/badge/swift-4.0%2B-orange.svg">
+  <img alt="Swift" src="https://img.shields.io/badge/swift-5.0%2B-orange.svg">
 </p>
 
 <p align="center">
@@ -22,6 +22,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Thats it! now you can just compare your objects easly without any problems or addional work.
 
 ## Installation
 
